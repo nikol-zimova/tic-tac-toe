@@ -10,7 +10,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 140px;
+  height: 10em;
   overflow: initial;
   font-weight: bold;
   }
@@ -18,12 +18,12 @@ body{
 
 h2{
   text-align: center;
-  margin: 10px;
+  margin: 2%;
   font-weight: 700;
 }
 
 .typing {
-  font-size: 35px;
+  font-size: 3em;
   white-space: nowrap;
   overflow: hidden;
   width: 6em;
@@ -57,23 +57,23 @@ h2{
 
 #footer{
   background-color: #e1d7f5;
-  font-size: 16px;
+  font-size: 1em;
   text-align: center;
   color:#333;
   position: fixed;
   bottom: 0;
-  height: 50px;
-  margin-top: 40px;
+  height: 3em;
+  margin-top: 2em;
   width: 100%;
   font-family: "Assistant", sans-serif;
   text-decoration: none;
-}
+  }
 
 #tic-tac-toe-board {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    margin: 40px auto;
+    grid-gap: 0.52vw;
+    margin: 2.5vw auto;
     width: 300px;
     height: 300px;
   }
@@ -95,12 +95,13 @@ h2{
     display: block;
     background-color: #e691d0;
     color: #242424;
-    font-size: 18px;
+    font-size: 100%;
     font-family: "Assistant", sans-serif;
     font-weight: 700;
-    border-radius: 10px;
+    border-radius: 10em;
     border: 2px solid rgba(0, 0, 0, 0.767);
-    padding: 10px 20px;
-    margin: 20px auto;
+    padding: 0.5em 0.5em;
+    margin: auto;
+    margin-bottom: 20%;
   }
   
